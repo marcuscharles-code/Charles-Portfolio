@@ -84,7 +84,7 @@ const iconTheme = 'ri-sun-line';
 const selectedTheme = localStorage.getItem('selected-theme');
 const selectedIcon = localStorage.getItem('selected-icon');
 
-const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark'  && changeProfile.setAttribute("src", "./img/profile.png") : 'light' && changeProfile.setAttribute("src", "./img/profile2.png");
+const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark'  && changeProfile.setAttribute("src", "./img/charles.webp") : 'light' && changeProfile.setAttribute("src", "./img/charles.webp");
 const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'dark-theme' : 'ri-sun-line';
 
 const toggleTheme = () => {
